@@ -1,0 +1,87 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin:0;
+}
+body{
+    background: #a1a1a176;
+
+}
+.h1{
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding: 10px;
+    font-family: fantasy;
+}
+.contenedorMayor{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.contBuscador{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+}
+.buscar{
+    width: 350px;
+    padding: 10px;
+    border: 3px solid black;
+    outline: none;
+    font-size: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  black;
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.carta{
+    width: 70%;
+    background: rgba(194, 193, 193, 0.171);
+    margin: 20%;
+    height: 85%;
+    border-radius:20px;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.contenedorImg{
+    width: 100%;
+}
+h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+p{
+    margin-left: 15px;
+    margin: 15px;
+    font-size: 15px;
+}
+
+hr{
+    border: 1.5px solid rgba(181, 180, 180, 0.116);
+}
+
+.conTitle{
+    text-align: center;
+    margin-bottom: 1%;
+}
+.contenedorIcono{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+@media (max-width: 586px) {
+    .contenedorMayor{
+        display: grid;
+        grid-template-columns: 48% 48%;
+    }
+}
+
+
+
+
